@@ -6,6 +6,7 @@ export interface IProduct {
   price: any;
 
   attributeValues: {
+    p_price: any;
     p_image: { value: { downloadLink: any } };
 
     p_title: { value: any };
