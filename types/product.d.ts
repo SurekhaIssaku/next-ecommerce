@@ -8,7 +8,7 @@ export interface IProduct {
   attributeValues: {
     p_price: any;
     p_image: { value: { downloadLink: any } };
-
+    p_description: { value: any[] };
     p_title: { value: any };
   };
 }
